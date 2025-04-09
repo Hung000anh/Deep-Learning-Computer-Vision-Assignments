@@ -1,5 +1,5 @@
 # import the necessary packages
-from Chapter14.lenet import LeNet
+from lenet import LeNet
 from tensorflow.keras.utils import plot_model
 
 # initialize LeNet and then write the network architecture

@@ -1,6 +1,6 @@
 # import the necessary packages
 from sklearn.preprocessing import LabelBinarizer
-from Chapter07.minivggnet import MiniVGGNet
+from pyimagesearch.nn.conv import MiniVGGNet
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.datasets import cifar10

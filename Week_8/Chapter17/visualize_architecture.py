@@ -1,5 +1,5 @@
 # import the necessary packages
-from lenet import LeNet
+from pyimagesearch.nn.conv import LeNet
 from tensorflow.keras.utils import plot_model
 
 # initialize LeNet and then write the network architecture
